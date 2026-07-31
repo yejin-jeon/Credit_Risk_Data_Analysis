@@ -329,11 +329,13 @@ DTI가 증가할수록 부도율이 상승하는 패턴을 확인하였습니다
 
 ## Visualization
 
+## Visualization
+
 ### FICO Score Risk Analysis
-![FICO Chart](./credit-risk-analysis/images/fico_chart.png)
+![FICO Chart](credit-risk-analysis/images/fico_default_risk.png)
 
 ### DTI Risk Analysis
-![DTI Chart](./credit-risk-analysis/images/dti_chart.png)
+![DTI Chart](credit-risk-analysis/images/dti_default_rate.png)
 
 ### Loan Purpose Risk Analysis
-![Purpose Chart](./credit-risk-analysis/images/purpose_chart.png)
+![Purpose Chart](credit-risk-analysis/images/loan_purpose_risk_analysis.png)
