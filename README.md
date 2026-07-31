@@ -209,6 +209,9 @@ Poor(300~579) 구간의 데이터는 존재하지 않았으며 Fair 이상 구�
 
 FICO Score는 고객 신용 수준을 구분하는 기준으로 활용 가능성을 확인하였습니다.
 
+### Visualization
+![FICO Score Risk Analysis](credit-risk-analysis/images/fico_default_risk.png)
+
 
 # 8. DTI Analysis
 
@@ -233,6 +236,8 @@ DTI가 증가할수록 부도율이 상승하는 패턴을 확인하였습니다
 
 상환 부담 수준이 높은 고객군에서 부도율이 높게 나타나는 패턴을 확인하였습니다.
 
+### Visualization
+![DTI Default Rate](credit-risk-analysis/images/dti_default_rate.png)
 
 # 9. Loan Purpose Analysis
 
@@ -255,6 +260,9 @@ DTI가 증가할수록 부도율이 상승하는 패턴을 확인하였습니다
 대출 목적별 부도율 차이를 확인하였으며, 부도율이 높은 주요 목적군을 중심으로 비교 분석하였습니다.
 
 특히 Small Business 목적 고객군에서 가장 높은 부도율이 확인되어 Loan Purpose 정보가 위험 수준 비교를 위한 보조 지표로 활용 가능함을 확인하였습니다.
+
+### Visualization
+![Loan Purpose Risk Analysis](credit-risk-analysis/images/loan_purpose_risk_analysis.png)
 
 # 10. 종합 위험 요인 분석
 
@@ -324,18 +332,3 @@ DTI가 증가할수록 부도율이 상승하는 패턴을 확인하였습니다
 
 - Matplotlib
 - Seaborn
-
-## Visualization
-
-## Visualization
-
-## Visualization
-
-### FICO Score Risk Analysis
-![FICO Chart](credit-risk-analysis/images/fico_default_risk.png)
-
-### DTI Risk Analysis
-![DTI Chart](credit-risk-analysis/images/dti_default_rate.png)
-
-### Loan Purpose Risk Analysis
-![Purpose Chart](credit-risk-analysis/images/loan_purpose_risk_analysis.png)
